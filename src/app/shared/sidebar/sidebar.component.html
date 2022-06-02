@@ -2,7 +2,7 @@
     <h3 class="text-light">Gifs App</h3>
     <hr>
     <div class="list-group list-reset">
-      <a href="" class="list-group-item list-group-item list-itemaction">Dragon Ball</a>
-      <a href="" class="list-group-item list-group-item list-itemaction">Dragon Ball Z</a>
+      <a *ngFor="let item of historial" href="#" class="list-group-item list-group-item list-itemaction">{{item}}</a>
     </div>
   </div>
+ 
